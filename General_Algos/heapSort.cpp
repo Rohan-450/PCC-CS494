@@ -34,7 +34,7 @@ int main(){
   int n;
   cout<<"Enter the number of elements: ";
   cin>>n;
-  int a[n];
+  int *a=new int[n];
   cout<<"Enter the elements: ";
   for(int i=1;i<=n;i++)
     cin>>a[i];

@@ -32,8 +32,8 @@ int getMaxDeadline(Job arr[], int n) {
 void sequenceJobs(Job arr[], int n) {
   sortByProfit(arr, n);
   int maxDeadline = getMaxDeadline(arr, n);
-  char result[maxDeadline];
-  bool slot[maxDeadline];
+  char *result=new char[maxDeadline];
+  bool *slot=new bool[maxDeadline];
   int profit=0;
   for (int i = 0; i < maxDeadline; i++) {
     slot[i] = false;
