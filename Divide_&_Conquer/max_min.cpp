@@ -34,7 +34,7 @@ int main(){
   cin>>size;
   cout<<endl;
 
-  int a[size];
+  int *a=new int[size];
   cout<<"Enter elements:";
   for(int i=0;i<size;i++)
     cin>>a[i];

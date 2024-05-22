@@ -80,6 +80,7 @@ int main() {
 	cout<<endl;
 	printkvalues();
 	cout<<endl;
+	cout<<"Total no of comparisons are: "<<cost[1][n]<<endl;
     optimalParenthesise(kvalue,1,n);
     return 0;
 }
