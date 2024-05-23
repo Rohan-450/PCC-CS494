@@ -6,7 +6,7 @@ int n,graph[10][10],dist[100],pred[100];
 void readGraph(){
 	int i,j;
 	FILE* fp;
-	fp=fopen("ford2.txt","r");
+	fp=fopen("ford.txt","r");
 	if(fp==NULL){
 		printf("Error");
 		exit(1);

@@ -53,6 +53,6 @@ int main(){
     for(int i=0;i<n;i++){
         colour[i]=0;
     }
-    mcoloring(graph,n,1,colour,m);
+    mcoloring(graph,n,0,colour,m);
     return 0;
 }
